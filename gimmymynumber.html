@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gimmy My Number</title>
+</head>
+<body>
+	<script>
+		var number = parseInt(prompt("Gimmy a number greater than 100 plz…"));
+		var threshold = 100;
+
+		while (number <= threshold){
+			console.log(number + " is less than 100, dummy. Try again… I’ve got all day…")
+			number = parseInt(prompt("Gimmy a number greater than 100 plz…"));
+		}
+
+		console.log(number + " is greater than 100! Good work.")
+	</script>
+</body>
+</html>
